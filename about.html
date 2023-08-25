@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUCATIONAL WEB BLOG</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">LEARN WELL</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="#recomend">ARTICLES</a></li>
+           
+            <li><a href="thumbnail.html">THUMBNAIL</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            <li><a href="contact.html">CONTACT</a></li>       
+        </ul>
+    </header>
+<section class="about" id="about">
+        <div class="heading">
+            <h2>ABOUT ME</h2>
+            <span>INTRODUCTION</span>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="data:image/jpeg;base64,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" alt="">
+            </div>
+            <div class="about-text">
+                <p>ABOUT ARTICLRE
+                    An article is a word that is used to indicate that a noun is a noun without describing it. For example, in the sentence Nick bought a dog, the article a indicates that the word dog is a noun. Articles can also modify anything that acts as a noun, such as a pronoun or a noun phrase.</p>
+                <div class="information">
+                    
+                    <div class="info-box">
+                        <i class='bx bxs-user' ></i>
+                        <span>VISHNU</span>
+                    </div>
+                    
+                    <div class="info-box">
+                        <i class='bx bxs-phone' ></i>
+                        <span>+91 9658523656</span>
+                    </div>
+                    
+                    <div class="info-box">
+                        <i class='bx bxs-envelope' ></i>
+                        <span>vishnu2323@gmail.com</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+</section>
